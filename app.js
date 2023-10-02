@@ -23,6 +23,7 @@ function formatPlans() {
     ta.select();
     document.execCommand('copy');
     document.body.removeChild(ta);
+    toastr.success('Na-mekus-mekus na Insan! Paste mo na sa tracker mo! ./.');
 }
 
 
